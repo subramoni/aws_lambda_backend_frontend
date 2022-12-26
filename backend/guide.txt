@@ -1,0 +1,13 @@
+Guide
+
+Open a folder in VS code
+
+installation of dependencies
+
+-- npm init
+-- npm i bcryptjs jsonwebtoken aws-sdk
+
+
+reinstallation of dependencies
+
+-- npm install
