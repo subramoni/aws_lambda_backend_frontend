@@ -3,7 +3,7 @@ import React from 'react'
 const PremiumContent = () => {
   return (
     <div>
-      This is premium content page
+      <h1>Welcome</h1>
     </div>
   )
 }

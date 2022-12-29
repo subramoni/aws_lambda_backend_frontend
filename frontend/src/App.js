@@ -10,6 +10,7 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
+      <h1>Smart Business Solutions</h1>
           <div className='header'>
               <Link  to='/'>Home</Link>
               <Link  to='/register'>Register</Link>

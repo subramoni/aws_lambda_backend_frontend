@@ -9,7 +9,7 @@ const Register = () => {
   const [email, setEmail] = useState('');
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
-  const [message, setMessage] = useState('');
+  const [message, setMessage] = useState(null);
 
   const submitHandler = (event) => {
     event.preventDefault();
@@ -18,7 +18,7 @@ const Register = () => {
     {
         setMessage('All fields are required');
     }
-    
+    setMessage(null);
     const requestConfig = {
       headers : {
         'Content-Type': 'application/json'
@@ -50,6 +50,7 @@ const Register = () => {
   return (
     <div>
       <form onSubmit={submitHandler}>
+        <h5>USER REGISTER</h5>
         Name : <input type='text' value={name} onChange={event => setName(event.target.value)}/><br/><br/>
         email : <input type='text' value={email} onChange={event => setEmail(event.target.value)}/><br/><br/>
         username : <input type='text' value={username} onChange={event => setUsername(event.target.value)}/><br/><br/>

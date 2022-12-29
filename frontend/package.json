@@ -1,6 +1,7 @@
 {
   "name": "frontend",
   "version": "0.1.0",
+  "homepage": "http://aws-lambda-frontend.s3-website-us-east-1.amazonaws.com",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
