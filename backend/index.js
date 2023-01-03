@@ -1,5 +1,6 @@
-aws lambda 1st checking
-
+Step 1 - aws lambda 1st checking
+================================
+    
 const users = '/users';
 const user = '/user';
 const signup = '/signup';
@@ -39,8 +40,20 @@ function buildResponse(statusCode, body){
 }
 
 
+Step 2 - Create package.json file
+=================================
 
+{
+    "name":"travelBlog",
+    "author":"krishna",
+    "version":"1.0.0",
+    "dependencies": {
+        "bcryptjs":"2.4.3",
+        "jsonwebtoken":"8.5.1"
+    }
+}
 
+Step 3
 
 
 
